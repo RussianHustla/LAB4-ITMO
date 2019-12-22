@@ -11,7 +11,6 @@ abstract class Actor implements ICondition{
     abstract void sniff(String dish);
 
 
-
     public String getName() {
         return name;
     }

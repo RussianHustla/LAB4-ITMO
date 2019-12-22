@@ -49,7 +49,7 @@ public class Cooker extends Human implements Telling{
             boolean fail = false;
             if (random() > getAccuracy()) {
                 System.out.println(name + " просыпает " + spice);
-                tell("лять!");
+                //tell("лять!");
                 setCond(Condition.NEGATIVE);
                 fail = true;
             }

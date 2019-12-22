@@ -79,7 +79,7 @@ abstract class Human extends Actor{
         if (age > 0) {
             this.age = age;
         }
-        else System.out.println("Возраст должен быть положительным");
+        else throw new IncorrectAgeException("Возраст должен быть положительным");
     }
     public void setPlace(Place place) {
         this.place = place;
